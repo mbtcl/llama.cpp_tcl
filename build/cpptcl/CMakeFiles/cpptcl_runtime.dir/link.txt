@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcpptcl_runtime.a CMakeFiles/cpptcl_runtime.dir/cpptcl_runtime.c.o
+/usr/bin/ranlib libcpptcl_runtime.a

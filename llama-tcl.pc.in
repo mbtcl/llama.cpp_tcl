@@ -1,0 +1,11 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: llama-tcl
+Description: Tcl bindings for llama.cpp
+Version: @PROJECT_VERSION@
+Libs: -L${libdir} -lllama_tcl
+Cflags: -I${includedir}
+Requires: tcl

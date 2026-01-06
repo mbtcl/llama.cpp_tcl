@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcpptcl_static.a CMakeFiles/cpptcl_static.dir/cpptcl.cc.o CMakeFiles/cpptcl_static.dir/__/generated/cpptcl_version.cpp.o
+/usr/bin/ranlib libcpptcl_static.a

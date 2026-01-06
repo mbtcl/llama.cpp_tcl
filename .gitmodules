@@ -1,0 +1,6 @@
+[submodule "cpptcl"]
+	path = cpptcl
+	url = https://github.com/flightaware/cpptcl.git
+[submodule "llama.cpp"]
+	path = llama.cpp
+	url = https://github.com/ggerganov/llama.cpp.git

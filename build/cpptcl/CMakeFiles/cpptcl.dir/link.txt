@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -arch arm64 -dynamiclib -Wl,-headerpad_max_install_names -o libcpptcl.dylib -install_name @rpath/libcpptcl.dylib CMakeFiles/cpptcl.dir/cpptcl.cc.o CMakeFiles/cpptcl.dir/__/generated/cpptcl_version.cpp.o  /opt/homebrew/Cellar/tcl-tk@8/8.6.17/lib/libtclstub8.6.a

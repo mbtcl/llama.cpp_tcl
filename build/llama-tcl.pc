@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: llama-tcl
+Description: Tcl bindings for llama.cpp
+Version: 1.0.0
+Libs: -L${libdir} -lllama_tcl
+Cflags: -I${includedir}
+Requires: tcl
